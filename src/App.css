@@ -657,6 +657,7 @@ footer {
     justify-content: center;
   }
 }
+
 .box1 .event-package {
   display: flex;
   flex-direction: column;
@@ -1009,7 +1010,7 @@ footer {
   background-color: #f26cf9;
   color: white;
 }
-
+/*VERIFY*/
 .validate-card {
   display: flex;
   align-items: center;

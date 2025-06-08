@@ -65,7 +65,13 @@ const EventDetails = () => {
           <div className="title">
             <h4>{event.title}</h4>
           </div>
-          <div className="date">DATE 16:00 adassda</div>
+          <div className="date">
+            {event.eventDate &&
+              new Date(event.eventDate).toLocaleString("sv-SE", {
+                dateStyle: "full",
+                timeStyle: "short",
+              })}
+          </div>
           <div className="location">{event.location}</div>
 
           <div className="event-info">

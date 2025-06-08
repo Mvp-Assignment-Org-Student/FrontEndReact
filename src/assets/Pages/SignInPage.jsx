@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 function SignInPage() {
   const [formData, setFormData] = useState({
@@ -75,6 +75,9 @@ function SignInPage() {
         <button type="submit" className="btn sign-btn">
           Log in
         </button>
+        <Link to="/signup" className="signup-link">
+          Sign Up here
+        </Link>
       </form>
     </div>
   );

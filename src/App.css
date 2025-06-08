@@ -1074,3 +1074,7 @@ footer {
   background-color: #f26cf9;
   color: white;
 }
+
+.signup-link{
+  text-decoration: none;
+}
